@@ -1,0 +1,72 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+/**NAVBAR**/
+nav#menu{
+    background-color: #E83E8C;
+}
+.nav-link{
+    color: white;
+}
+.navbar{
+    background-color: #E83E8C;
+    padding: .5em 2em .5em 2em;
+}
+#logo{
+    height: 50px;
+}
+
+
+/*TITULO*/
+h1{
+    color: #707070;
+    font-weight: 700;
+    text-align: center;
+    padding: 0;
+    margin: 2em 0 2em 0;
+}
+
+/*CARDS*/
+div.card{
+    margin: 2em 3em 2em 3em;
+}
+
+@media (max-width: 350px) {
+    div.card{
+        margin: 0 1em 2em 1em;
+    }
+
+    #footer-pagos{
+        visibility: hidden;
+    }
+  }
+
+footer{
+    color: white;
+}
+#footer-pagos{
+    background-color: #17A2B8;
+    font-weight: 700;
+    height: 150px;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2em 0 0 0;
+}
+#footer-suricata{
+    background-color: #E83E8C;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    margin: 0;
+}
+i{
+    padding: 0 1em 0 1em;
+    width: 50px;
+}
+
